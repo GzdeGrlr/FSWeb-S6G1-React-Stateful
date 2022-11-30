@@ -51,7 +51,7 @@ export default function Kareler() {
           // Kötü bug!  'KareIdListesi' yerine bir state dilimi kullanmalıyız.
           // Şöyle diyebiliriz: "aa bu çalışıyor!" Ama kareler bir state diliminden gelmiyorsa,
           // asla yeni kare ekleyemeyiz, kareleri düzenleyemeyiz ya da silemeyiz. Düzeltin!
-          kareler.map((id) => (
+          KareIdListesi.map((id) => (
             <div
               id={id}
               key={id}
